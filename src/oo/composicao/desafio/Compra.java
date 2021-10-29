@@ -19,7 +19,7 @@ public class Compra {
 	}
 	
 	/* 
-	 * 2.Adiciona o item a lista já criando um novo item passando as
+	 * 2.Adiciona o item a lista já criando um novo item e produto passando as
 	 * informações necessárias para o contrutor na classe Item. 
 	*/
 	void adicionarItem(String nome, double preco, int qtde){

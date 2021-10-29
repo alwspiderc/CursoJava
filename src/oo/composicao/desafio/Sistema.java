@@ -13,9 +13,9 @@ public class Sistema {
 		compra2.adicionarItem(new Produto("Impressora", 1000), 1);
 		
 		Cliente cliente = new Cliente("Maria Julia Moraes");
-		cliente.adicionarCompra(compra1);
+		cliente.adicionarCompra(compra1);  
 		cliente.adicionarCompra(compra2);
 		
-		System.out.println(cliente.obterValorTotal());
-	}
+		System.out.println(cliente.obterValorTotal());	
+		}
 }
