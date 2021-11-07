@@ -6,7 +6,7 @@ public class CalculoTeste3 {
 
 	public static void main(String[] args) {
 			
-		// NÃƒO: int -> Double
+		// NÃO: int -> Double
 		//Double a = 1.0;
 		// double -> Double
 		
