@@ -11,19 +11,19 @@ public class Desafio {
 		 * Nessa parte estava dando um erro no eclipse 
 		 * https://blog.cod3r.com.br/o-que-e-locale/
 		 * 
-		 * O que acontece é que o Java/Eclipse trabalham com um conceito 
-		 * de locale, onde, quando eles identificam a localização de onde 
-		 * estão instalados eles setam como padrão as 'manias' daquele país. 
-		 * Seu Eclipse está configurado para o Brasil, por isso ele está pedindo 
-		 * para separar os doubles com vírgula, por que o padrão daqui é esse. 
-		 * Para modificar isso é simples. Siga esse passo a passo aqui:
+		 * O que acontece ï¿½ que o Java/Eclipse trabalham com um conceito 
+		 * de locale, onde, quando eles identificam a localizaï¿½ï¿½o de onde 
+		 * estï¿½o instalados eles setam como padrï¿½o as 'manias' daquele paï¿½s. 
+		 * Seu Eclipse estï¿½ configurado para o Brasil, por isso ele estï¿½ pedindo 
+		 * para separar os doubles com vï¿½rgula, por que o padrï¿½o daqui ï¿½ esse. 
+		 * Para modificar isso ï¿½ simples. Siga esse passo a passo aqui:
 
 		   Entre no seu Eclipse, no menu superior clica em Window > Preferences 
-		   >Java > Installed JREs > Clique na JRE que está marcada e depois clique 
+		   >Java > Installed JREs > Clique na JRE que estï¿½ marcada e depois clique 
 		   em Edit.
 
-		   Após isso terá uma opção chamada 'Default VM arguments', você vai copiar 
-		   e colar esse texto lá:
+		   Apï¿½s isso terï¿½ uma opï¿½ï¿½o chamada 'Default VM arguments', vocï¿½ vai copiar 
+		   e colar esse texto lï¿½:
 		   -Duser.language=en -Duser.country=US
 
 		   Pronto, basta clicar em finish, fechar e abrir novamente seu Eclipse.
@@ -57,7 +57,7 @@ public class Desafio {
 				.andThen(arredondar)
 				.andThen(formatar)
 				.apply(p);
-		System.out.println("O preço final é " + preco);
+		System.out.println("O preÃ§o final Ã© " + preco);
 	}
 
 }
